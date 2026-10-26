@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DKNC7SVXHH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DKNC7SVXHH');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no,address=no,email=no">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#E8637A">
+    <meta name="description" content="桜灯塾（天王寺）の中学受験コース案内。全科目・少人数個別（講師1名対生徒3名まで）で弱点補強から計画管理まで。通塾回数で選べるサポート内容、大手塾サポート、完全マンツーマン、集団授業、朝のZoom自習管理まで紹介します。">
+    <meta name="keywords" content="中学受験,天王寺,個別指導,桜灯塾,おうびじゅく,コース,大手塾サポート,Zoom自習">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="桜灯塾｜中学受験">
+    <link rel="canonical" href="https://oubijuku.com/course">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="コース案内｜中学受験専門 桜灯塾（天王寺）">
+    <meta property="og:description" content="全科目・少人数個別で中学受験を一から引き受ける桜灯塾のコース案内。通塾回数で選べるサポート内容、大手塾サポートコース、Zoom自習管理も紹介。">
+    <meta property="og:url" content="https://oubijuku.com/course">
+    <meta property="og:site_name" content="桜灯塾｜中学受験">
+    <meta property="og:image" content="https://oubijuku.com/img/studyroom-night.jpg">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="コース案内｜中学受験専門 桜灯塾（天王寺）">
+    <meta name="twitter:description" content="全科目・少人数個別で中学受験を一から引き受ける桜灯塾のコース案内。通塾回数で選べるサポート内容、大手塾サポートコース、Zoom自習管理も紹介。">
+    <meta name="twitter:image" content="https://oubijuku.com/img/studyroom-night.jpg">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "桜灯塾",
+      "alternateName": "おうびじゅく",
+      "description": "中学受験専門の個別指導塾「桜灯塾」。講師1名対生徒3名までの少人数個別で全科目を指導し、弱点補強と計画管理まで一貫して担う。JR天王寺駅北口から徒歩5分。",
+      "url": "https://oubijuku.com",
+      "telephone": "06-6779-9507",
+      "email": "uchida@oubijuku.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "南河堀町9-43 ターミナル天王寺北口ビル201",
+        "addressLocality": "天王寺区",
+        "addressRegion": "大阪府",
+        "postalCode": "543-0054",
+        "addressCountry": "JP"
+      },
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "17:00", "closes": "21:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "18:00" }
+      ]
+    }
+    </script>
+    <title>コース案内｜中学受験専門 桜灯塾（おうびじゅく）・天王寺</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --main: #E8637A;
+            --main-dark: #C2435C;
+            --main-light: #FDF2F4;
+            --ink: #333333;
+            --line-green: #06C755;
+        }
+        body { font-family: 'Noto Sans JP', sans-serif; color: var(--ink); line-height: 1.9; }
+        .text-main { color: var(--main); }
+        .text-main-dark { color: var(--main-dark); }
+        .bg-main { background-color: var(--main); }
+        .bg-main-light { background-color: var(--main-light); }
+        .border-main { border-color: var(--main); }
+        .bg-line { background-color: var(--line-green); }
+        .section-title { position: relative; padding-left: 1rem; }
+        .section-title::before { content: ''; position: absolute; left: 0; top: 0.35em; bottom: 0.35em; width: 6px; border-radius: 3px; background: var(--main); }
+        .hero-bg {
+            background: linear-gradient(rgba(40,10,18,0.62), rgba(40,10,18,0.62)), url('img/studyroom-night.jpg');
+            background-size: cover; background-position: center;
+        }
+        table.fee-table th, table.fee-table td { border: 1px solid #F3C6CE; padding: 0.65rem 0.9rem; }
+        table.fee-table th { background: var(--main-light); font-weight: 700; }
+        @media (max-width: 767px) {
+            table.fee-table { font-size: 13px; }
+            table.fee-table th, table.fee-table td { padding: 0.5rem 0.55rem; }
+        }
+        #mobile-nav { transition: transform 0.35s ease; transform: translateX(100%); }
+        #mobile-nav.open { transform: translateX(0); }
+    </style>
+</head>
+<body class="bg-white">
+
+    <!-- ヘッダー -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-pink-100">
+        <div class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+            <a href="/" class="flex items-baseline gap-2">
+                <span class="text-2xl font-black text-main-dark tracking-wide">桜灯塾</span>
+                <span class="text-xs font-bold text-gray-500">中学受験専門｜天王寺</span>
+            </a>
+            <nav class="hidden lg:flex items-center gap-6 text-sm font-bold">
+                <a href="/course" class="hover:text-main-dark">コース案内</a>
+                <a href="/results" class="hover:text-main-dark">進学実績</a>
+                <a href="/fee" class="hover:text-main-dark">料金</a>
+                <a href="/instructors" class="hover:text-main-dark">講師紹介</a>
+                <a href="/faq" class="hover:text-main-dark">よくある質問</a>
+                <a href="/access" class="hover:text-main-dark">アクセス</a>
+                <a href="/contact" class="bg-main text-white px-4 py-2 rounded-full hover:opacity-90">お問い合わせ</a>
+            </nav>
+            <div class="flex items-center gap-3 lg:hidden">
+                <a href="tel:0667799507" class="text-main-dark font-black text-sm">06-6779-9507</a>
+                <button id="menu-btn" class="p-2" aria-label="メニューを開く">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- モバイルメニュー -->
+    <div id="mobile-nav" class="fixed inset-y-0 right-0 w-72 max-w-[85vw] bg-white z-[60] shadow-2xl lg:hidden">
+        <div class="flex items-center justify-between p-4 border-b border-pink-100">
+            <span class="font-black text-main-dark">メニュー</span>
+            <button id="menu-close" class="p-2" aria-label="メニューを閉じる">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 font-bold">
+            <a href="/" class="py-3 border-b border-gray-100">トップ</a>
+            <a href="/course" class="py-3 border-b border-gray-100">コース案内</a>
+            <a href="/results" class="py-3 border-b border-gray-100">進学実績</a>
+            <a href="/fee" class="py-3 border-b border-gray-100">料金</a>
+            <a href="/instructors" class="py-3 border-b border-gray-100">講師紹介</a>
+            <a href="/faq" class="py-3 border-b border-gray-100">よくある質問</a>
+            <a href="/access" class="py-3 border-b border-gray-100">アクセス・教室案内</a>
+            <a href="/contact" class="py-3">お問い合わせ・体験申込</a>
+        </nav>
+        <div class="p-4 flex flex-col gap-3">
+            <a href="https://lin.ee/oddwhsn" class="bg-line text-white text-center font-bold py-3 rounded-full">公式LINEで相談する</a>
+            <a href="tel:0667799507" class="bg-main text-white text-center font-bold py-3 rounded-full">電話 06-6779-9507</a>
+        </div>
+    </div>
+
+    <!-- ページ見出し -->
+    <section class="bg-main-light">
+        <div class="max-w-6xl mx-auto px-4 py-12 md:py-16">
+            <h1 class="text-3xl md:text-4xl font-black mb-4">コース案内</h1>
+            <p class="text-base md:text-lg leading-relaxed max-w-3xl">桜灯塾の中心は、全科目を少人数個別で引き受ける「桜灯塾中学受験コース」です。通塾回数によって、塾が担うサポートの範囲を選べます。このページでは各コースの内容と、合格に向けてご家庭にお願いしたい3つのことをご案内します。</p>
+        </div>
+    </section>
+
+    <!-- メインコース -->
+    <section class="max-w-6xl mx-auto px-4 py-14 md:py-20">
+        <p class="text-xs font-black text-white bg-main inline-block px-3 py-1 rounded-full mb-3">メインコース</p>
+        <h2 class="section-title text-2xl md:text-3xl font-black mb-6">桜灯塾中学受験コース</h2>
+        <p class="mb-8 max-w-3xl">中学受験に必要な全科目を、講師1名対生徒3名までの少人数個別（集団個別形式）で指導します。受験のスタートから志望校対策まで、このコースひとつで完結する体制です。</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="border border-pink-100 rounded-2xl p-6 bg-white shadow-sm">
+                <h3 class="font-black text-lg text-main-dark mb-2">全科目対応の少人数個別</h3>
+                <p class="text-sm md:text-base">国語・算数・理科・社会の全科目に対応します。講師1名が受け持つのは生徒3名までなので、一人ひとりの進み具合に合わせて解説と演習の配分を調整できます。なお、質問対応が1時間のうち30分以上必要な場合は、理解を深めるためにマンツーマン指導をご提案します。</p>
+            </div>
+            <div class="border border-pink-100 rounded-2xl p-6 bg-white shadow-sm">
+                <h3 class="font-black text-lg text-main-dark mb-2">弱点補強の仕組み</h3>
+                <p class="text-sm md:text-base">塾専用問題集とプリント教材システムを使い、つまずいている単元を洗い出して集中的に補強します。英俊社のプリント教材システム「KAWASEMI Lite」の導入塾として、弱点に合わせたプリントをその場で用意できます。</p>
+            </div>
+            <div class="border border-pink-100 rounded-2xl p-6 bg-white shadow-sm">
+                <h3 class="font-black text-lg text-main-dark mb-2">オリジナル問題の作成</h3>
+                <p class="text-sm md:text-base">既存の教材だけでは足りない部分は、講師がオリジナル問題を作成して対応します。桜灯塾は受験算数の問題集「日々トレ算数」（全3編）を英俊社と作成した実績があり、その教材づくりの力が日々の指導に生きています。</p>
+            </div>
+            <div class="border border-pink-100 rounded-2xl p-6 bg-white shadow-sm">
+                <h3 class="font-black text-lg text-main-dark mb-2">志望校の先輩が指導</h3>
+                <p class="text-sm md:text-base">講師の中心は大阪公立大学医学部医学科などの医学部生で、灘・東大寺学園・西大和学園・洛南・四天王寺・神戸女学院といった難関中学の出身者が多く在籍しています。自分が通った学校を目指す後輩の指導を担います。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5つの考え方 -->
+    <section class="bg-main-light">
+        <div class="max-w-6xl mx-auto px-4 py-14 md:py-20">
+            <h2 class="section-title text-2xl md:text-3xl font-black mb-4">桜灯塾の5つの考え方</h2>
+            <p class="mb-8 max-w-3xl">中学受験の勝敗を分けるのは、才能よりも「戦略」と「量の管理」です。桜灯塾の指導は、次の5つの考え方に貫かれています。</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-pink-100">
+                    <h3 class="font-black text-lg text-main-dark mb-2">1. スピードは正義</h3>
+                    <p class="text-sm md:text-base">算数の失点の主因は、知識不足ではなくスピード不足です。時間を計った反復を徹底し、本番で解き切る速さを身につけます。</p>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-pink-100">
+                    <h3 class="font-black text-lg text-main-dark mb-2">2. テストは点取りゲーム</h3>
+                    <p class="text-sm md:text-base">満点を取る必要はありません。必要なのは合格最低点を超えること。配点から逆算し、取るべき問題を決めて対策します。</p>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-pink-100">
+                    <h3 class="font-black text-lg text-main-dark mb-2">3. 計画は講師が立てるもの</h3>
+                    <p class="text-sm md:text-base">小学生が自分で合格までの逆算をすることはできません。合格ルートを知る講師が計画を設計し、生徒は実行に集中します。</p>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-pink-100">
+                    <h3 class="font-black text-lg text-main-dark mb-2">4. インプット1：アウトプット3</h3>
+                    <p class="text-sm md:text-base">授業を聞く時間の3倍、手を動かして演習します。集団個別が演習中心なのは、この比率を守るためです。</p>
+                </div>
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-pink-100">
+                    <h3 class="font-black text-lg text-main-dark mb-2">5. 習慣は環境で変える</h3>
+                    <p class="text-sm md:text-base">学習習慣は意志の強さではなく、環境で変わります。仕切りつき自習室やスマホ・ゲーム機の預かりロッカーで、集中できる条件を整えます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- サポート比較 -->
+    <section>
+        <div class="max-w-6xl mx-auto px-4 py-14 md:py-20">
+            <h2 class="section-title text-2xl md:text-3xl font-black mb-4">通塾回数で変わるサポート内容</h2>
+            <p class="mb-6 max-w-3xl">同じコースでも、通塾回数によって塾が担う範囲が変わります。ご家庭で学習管理ができる場合は週1回から、塾に管理まで任せたい場合は週2回からが目安です。</p>
+            <div class="overflow-x-auto bg-white rounded-2xl p-4 md:p-6 shadow-sm border border-pink-100">
+                <table class="fee-table w-full text-sm md:text-base" style="min-width:640px;">
+                    <tr>
+                        <th class="text-left">項目</th>
+                        <th>週1回（1回2時間）</th>
+                        <th>週2回〜</th>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">授業内の質問対応</td>
+                        <td class="text-center">対応します</td>
+                        <td class="text-center">対応します</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">勉強計画づくりのサポート</td>
+                        <td class="text-center">対応します</td>
+                        <td class="text-center">対応します</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">勉強計画の管理</td>
+                        <td class="text-center text-gray-500">—</td>
+                        <td class="text-center font-bold text-main-dark">対応します</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">宿題の設定</td>
+                        <td class="text-center text-gray-500">なし</td>
+                        <td class="text-center font-bold text-main-dark">あり</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold">担当講師制</td>
+                        <td class="text-center text-gray-500">—</td>
+                        <td class="text-center font-bold text-main-dark">担当講師がつきます</td>
+                    </tr>
+                </table>
+                <p class="text-xs text-gray-500 mt-3">※週1回は「質問対応＋計画づくりのサポート」までで、宿題の設定と進捗管理は行いません。週2回からは担当講師が計画の管理と宿題まで担います。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 大手塾サポート -->
+    <section class="max-w-6xl mx-auto px-4 py-14 md:py-20">
+        <h2 class="section-title text-2xl md:text-3xl font-black mb-6">大手塾サポートコース</h2>
+        <div class="border border-pink-100 rounded-2xl p-7 bg-white shadow-sm max-w-3xl">
+            <p class="text-sm md:text-base mb-4">大手塾に通いながら、伸び悩んでいる科目や単元を補強したい方向けのコースです。指導には、通塾中の塾で使っているテキストを用います。併塾のご相談も歓迎しています。詳しくはお問い合わせの際にご相談ください。</p>
+            <p class="font-bold text-main-dark">1時間 3,000円〜（税込）</p>
+        </div>
+    </section>
+
+    <!-- その他のメニュー -->
+    <section class="bg-main-light">
+        <div class="max-w-6xl mx-auto px-4 py-14 md:py-20">
+            <h2 class="section-title text-2xl md:text-3xl font-black mb-8">その他のメニュー</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-2xl p-7 shadow-sm border border-pink-100">
+                    <h3 class="font-black text-lg mb-3">完全マンツーマン・家庭教師</h3>
+                    <p class="text-sm md:text-base mb-4">講師と1対1で指導します。教室でのマンツーマン指導のほか、ご自宅での家庭教師にも対応します。</p>
+                    <p class="font-bold text-main-dark">1時間 8,000円（税込）<br><span class="text-sm font-bold text-gray-600">＋交通費実費</span></p>
+                </div>
+                <div class="bg-white rounded-2xl p-7 shadow-sm border border-pink-100">
+                    <h3 class="font-black text-lg mb-3">集団授業</h3>
+                    <p class="text-sm md:text-base mb-4">集団形式で受ける授業です。個別指導と組み合わせて使うこともできます。</p>
+                    <p class="font-bold text-main-dark">1時間 2,500円（税込）</p>
+                </div>
+                <div class="bg-white rounded-2xl p-7 shadow-sm border border-pink-100">
+                    <h3 class="font-black text-lg mb-3">Zoom自習管理</h3>
+                    <p class="text-sm md:text-base mb-4">月曜〜土曜の朝6:15〜7:00（月24回・祝日は休み）、Zoomでつないで朝の自習を管理します。学習習慣づけと復習の定着に使えるメニューです。</p>
+                    <p class="font-bold text-main-dark">集団授業受講生 月12,000円<br>それ以外の方 月24,000円<span class="text-sm font-bold text-gray-600">（税込）</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 教室と学習環境 -->
+    <section class="max-w-6xl mx-auto px-4 py-14 md:py-20">
+        <h2 class="section-title text-2xl md:text-3xl font-black mb-4">教室と学習環境</h2>
+        <p class="mb-8 max-w-3xl">集中できる環境づくりも、桜灯塾の指導の一部です。</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="border border-pink-100 rounded-2xl p-6 bg-white shadow-sm">
+                <h3 class="font-black text-lg text-main-dark mb-2">一枚板デスクの大教室</h3>
+                <p class="text-sm md:text-base">教室には、奥行110cmの一枚板デスクを備えた大教室があります。教材やノートを広げても窮屈にならない広さで、演習に集中できます。</p>
+            </div>
+            <div class="border border-pink-100 rounded-2xl p-6 bg-white shadow-sm">
+                <h3 class="font-black text-lg text-main-dark mb-2">仕切りつき自習室</h3>
+                <p class="text-sm md:text-base">自習室には席ごとに仕切りがあり、周りを気にせず自分の課題に向き合えます。授業のない日の自習にも使えます。</p>
+            </div>
+            <div class="border border-pink-100 rounded-2xl p-6 bg-white shadow-sm">
+                <h3 class="font-black text-lg text-main-dark mb-2">スマホ・ゲーム機の預かりロッカー</h3>
+                <p class="text-sm md:text-base">教室内では、スマホやゲーム機を預かりロッカーに預けていただきます。誘惑を物理的に断つことで、勉強に集中する習慣を支えます。</p>
+            </div>
+            <div class="border border-pink-100 rounded-2xl p-6 bg-white shadow-sm">
+                <h3 class="font-black text-lg text-main-dark mb-2">指導日誌と保護者面談</h3>
+                <p class="text-sm md:text-base">授業のたびに指導日誌を作成し、その日の学習内容と様子を記録します。保護者面談は随時・無料（希望制）で、進み具合を共有しながら方針を調整します。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3つのお願い -->
+    <section class="max-w-6xl mx-auto px-4 py-14 md:py-20">
+        <h2 class="section-title text-2xl md:text-3xl font-black mb-4">目標達成のためにしていただきたい3つのこと</h2>
+        <p class="mb-8 max-w-3xl">桜灯塾の指導を最大限に生かすために、ご家庭には次の3つをお願いしています。</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="border border-pink-100 rounded-2xl p-6">
+                <p class="text-3xl font-black text-main mb-2">1</p>
+                <h3 class="font-black mb-2">目標を伝える</h3>
+                <p class="text-sm">志望校や「いつまでに何ができるようになりたいか」という目標を、塾と共有してください。目標が明確なほど、計画と教材の選び方が定まります。</p>
+            </div>
+            <div class="border border-pink-100 rounded-2xl p-6">
+                <p class="text-3xl font-black text-main mb-2">2</p>
+                <h3 class="font-black mb-2">決められた授業に出席する</h3>
+                <p class="text-sm">決められた授業には出席してください。やむを得ず休む場合は、振替で対応します。リズムを崩さないことが学力の土台になります。</p>
+            </div>
+            <div class="border border-pink-100 rounded-2xl p-6">
+                <p class="text-3xl font-black text-main mb-2">3</p>
+                <h3 class="font-black mb-2">自習と復習をする</h3>
+                <p class="text-sm">授業で学んだことを、自習と復習で自分のものにしてください。塾の授業時間だけで完結させず、家庭学習と組み合わせることで力が定着します。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-main-light">
+        <div class="max-w-6xl mx-auto px-4 py-14 md:py-20 text-center">
+            <h2 class="text-2xl md:text-3xl font-black mb-4">まずは体験授業で、教室の進み方をご確認ください</h2>
+            <p class="mb-8 max-w-2xl mx-auto">体験授業は、まず無料で1回受けていただけます。その後ご希望の場合は、有料体験（集団個別・1回2時間×3回で13,200円（税込））もご用意しています。実際の少人数個別の授業を受けて、お子様との相性をご確認いただけます。</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-3">
+                <a href="/contact" class="bg-main text-white font-bold text-center px-8 py-4 rounded-full shadow-lg hover:opacity-90">体験授業を申し込む</a>
+                <a href="https://lin.ee/oddwhsn" class="bg-line text-white font-bold text-center px-8 py-4 rounded-full shadow-lg hover:opacity-90">公式LINEで相談する</a>
+                <a href="/fee" class="border-2 border-main text-main-dark font-bold text-center px-8 py-4 rounded-full hover:bg-white">料金を見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="bg-[#2B2B2B] text-gray-200">
+        <div class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div>
+                <p class="text-xl font-black text-white mb-3">桜灯塾 <span class="text-sm font-bold text-gray-400">中学受験専門</span></p>
+                <p class="text-sm leading-relaxed">〒543-0054 大阪市天王寺区南河堀町9-43<br>ターミナル天王寺北口ビル201<br>電話：<a href="tel:0667799507" class="underline">06-6779-9507</a><br>メール：uchida@oubijuku.com</p>
+                <p class="text-sm mt-4">運営：もものはな株式会社<br>代表取締役 内田憲一</p>
+            </div>
+            <nav class="text-sm">
+                <p class="font-black text-white mb-3">サイトマップ</p>
+                <ul class="space-y-2">
+                    <li><a href="/" class="hover:underline">トップ</a></li>
+                    <li><a href="/course" class="hover:underline">コース案内</a></li>
+                    <li><a href="/results" class="hover:underline">進学実績</a></li>
+                    <li><a href="/fee" class="hover:underline">料金</a></li>
+                    <li><a href="/instructors" class="hover:underline">講師紹介</a></li>
+                    <li><a href="/faq" class="hover:underline">よくある質問</a></li>
+                    <li><a href="/access" class="hover:underline">アクセス・教室案内</a></li>
+                    <li><a href="/contact" class="hover:underline">お問い合わせ・体験申込</a></li>
+                </ul>
+            </nav>
+            <div class="text-sm">
+                <p class="font-black text-white mb-3">関連サイト</p>
+                <ul class="space-y-2">
+                    <li><a href="https://oubijuku-omu.com/" class="hover:underline" target="_blank" rel="noopener">大阪公立大学専門 桜灯塾（大学受験）</a></li>
+                    <li><a href="https://ameblo.jp/oubi-juku/" class="hover:underline" target="_blank" rel="noopener">中学受験ブログ（アメブロ）</a></li>
+                </ul>
+                <div class="flex flex-col gap-3 mt-6">
+                    <a href="https://lin.ee/oddwhsn" class="bg-line text-white text-center font-bold py-3 rounded-full">公式LINE</a>
+                    <a href="tel:0667799507" class="bg-main text-white text-center font-bold py-3 rounded-full">電話 06-6779-9507</a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 py-4 text-center text-xs text-gray-400">© もものはな株式会社（桜灯塾）</div>
+    </footer>
+
+    <!-- モバイル固定CTA -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 grid grid-cols-2 lg:hidden shadow-[0_-4px_12px_rgba(0,0,0,0.12)]">
+        <a href="tel:0667799507" class="bg-main text-white text-center font-bold py-3 text-sm">電話する<br><span class="text-xs">06-6779-9507</span></a>
+        <a href="https://lin.ee/oddwhsn" class="bg-line text-white text-center font-bold py-3 text-sm">LINEで相談<br><span class="text-xs">公式LINE</span></a>
+    </div>
+    <div class="h-14 lg:hidden"></div>
+
+    <script>
+        // モバイルメニュー
+        var nav = document.getElementById('mobile-nav');
+        document.getElementById('menu-btn').addEventListener('click', function(){ nav.classList.add('open'); });
+        document.getElementById('menu-close').addEventListener('click', function(){ nav.classList.remove('open'); });
+    </script>
+
+    <!-- GA4 イベントトラッキング -->
+    <script>
+      (function() {
+        if (typeof gtag !== 'function') return;
+        document.querySelectorAll('a[href^="tel:"]').forEach(function(el) {
+          el.addEventListener('click', function() {
+            gtag('event', 'phone_call_click', { event_category: 'engagement', event_label: el.getAttribute('href').replace('tel:', ''), page_path: window.location.pathname });
+          });
+        });
+        document.querySelectorAll('a[href*="lin.ee"], a[href*="line.me"]').forEach(function(el) {
+          el.addEventListener('click', function() {
+            gtag('event', 'line_click', { event_category: 'engagement', event_label: 'LINE', page_path: window.location.pathname });
+          });
+        });
+        document.querySelectorAll('a.js-form-link').forEach(function(el) {
+          el.addEventListener('click', function() {
+            gtag('event', 'form_open_click', { event_category: 'engagement', event_label: 'google_form', page_path: window.location.pathname });
+          });
+        });
+      })();
+    </script>
+</body>
+</html>
