@@ -81,6 +81,10 @@
         }
         table.fee-table th, table.fee-table td { border: 1px solid #F3C6CE; padding: 0.65rem 0.9rem; }
         table.fee-table th { background: var(--main-light); font-weight: 700; }
+        table.results-table th, table.results-table td { padding: 0.5rem 0.6rem; }
+        @media (max-width: 767px) {
+            table.results-table th, table.results-table td { padding: 0.4rem 0.5rem; }
+        }
         @media (max-width: 767px) {
             table.fee-table { font-size: 13px; }
             table.fee-table th, table.fee-table td { padding: 0.5rem 0.55rem; }
@@ -152,7 +156,7 @@
         <h2 class="section-title text-2xl md:text-3xl font-black mb-4">自塾コースの進学実績（53名）</h2>
         <p class="mb-6 max-w-3xl">桜灯塾中学受験コースで全科目の対策を行い、合格した生徒の進学先です。</p>
         <div class="overflow-x-auto bg-white rounded-2xl p-4 md:p-6 shadow-sm border border-pink-100">
-            <table class="fee-table w-full text-sm md:text-base" style="min-width:480px;">
+            <table class="fee-table results-table w-full text-sm md:text-base"><colgroup><col><col style="width:5.5rem"></colgroup>
                 <tr><th class="text-left">進学先</th><th>人数</th></tr>
                 <tr><td>大谷中学校</td><td class="font-bold text-main-dark whitespace-nowrap">9名</td></tr>
                 <tr><td>帝塚山中学校</td><td class="font-bold text-main-dark whitespace-nowrap">6名</td></tr>
@@ -186,7 +190,7 @@
             <h2 class="section-title text-2xl md:text-3xl font-black mb-4">サポートコースの進学実績（50名）― 大手塾と併用しての合格</h2>
             <p class="mb-6 max-w-3xl">大手塾に通いながら、桜灯塾の大手塾サポートコースで科目や単元の補強を行い、合格した生徒の進学先です。通塾中の塾のテキストを使い、伸び悩んでいる部分を個別に補いました。</p>
             <div class="overflow-x-auto bg-white rounded-2xl p-4 md:p-6 shadow-sm">
-                <table class="fee-table w-full text-sm md:text-base" style="min-width:480px;">
+                <table class="fee-table results-table w-full text-sm md:text-base"><colgroup><col><col style="width:5.5rem"></colgroup>
                     <tr><th class="text-left">進学先</th><th>人数</th></tr>
                 <tr><td>四天王寺中学校</td><td class="font-bold text-main-dark whitespace-nowrap">10名</td></tr>
                 <tr><td>帝塚山中学校</td><td class="font-bold text-main-dark whitespace-nowrap">9名</td></tr>
