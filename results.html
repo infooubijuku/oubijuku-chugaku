@@ -57,7 +57,7 @@
     </script>
     <title>進学実績｜中学受験専門 桜灯塾（おうびじゅく）</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --main: #E8637A;
@@ -91,6 +91,13 @@
         }
         #mobile-nav { transition: transform 0.35s ease; transform: translateX(100%); }
         #mobile-nav.open { transform: translateX(0); }
+        /* デザイン引き上げ（2026-10-27） */
+        h1, h2, h3 { font-family: 'Noto Serif JP', serif; letter-spacing: 0.03em; }
+        body { letter-spacing: 0.02em; }
+        .section-title::before { width: 4px; border-radius: 0; top: 0.25em; bottom: 0.25em; }
+        table.fee-table th { font-family: 'Noto Serif JP', serif; letter-spacing: 0.06em; }
+        header { box-shadow: 0 1px 16px rgba(194, 67, 92, 0.07); }
+        ::selection { background: #F8CDD5; }
     </style>
 </head>
 <body class="bg-white">
@@ -109,7 +116,7 @@
                 <a href="/instructors" class="hover:text-main-dark">講師紹介</a>
                 <a href="/faq" class="hover:text-main-dark">よくある質問</a>
                 <a href="/access" class="hover:text-main-dark">アクセス</a>
-                <a href="/contact" class="bg-main text-white px-4 py-2 rounded-full hover:opacity-90">お問い合わせ</a>
+                <a href="/contact" class="bg-main text-white px-4 py-2 rounded hover:opacity-90">お問い合わせ</a>
             </nav>
             <div class="flex items-center gap-3 lg:hidden">
                 <a href="tel:0667799507" class="text-main-dark font-black text-sm">06-6779-9507</a>
@@ -242,7 +249,7 @@
         <div class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
             <div>
                 <p class="text-[10px] font-bold tracking-[0.35em] text-gray-400 mb-1">OUBIJUKU</p>
-                <p class="text-xl font-black text-white mb-3">桜灯塾 <span class="text-sm font-bold text-gray-400">中学受験専門</span></p>
+                <p class="text-xl font-black text-white mb-3" style="font-family:'Noto Serif JP',serif;letter-spacing:0.06em;">桜灯塾 <span class="text-sm font-bold text-gray-400">中学受験専門</span></p>
                 <p class="text-sm leading-relaxed">〒543-0054 大阪市天王寺区南河堀町9-43<br>ターミナル天王寺北口ビル201<br>電話：<a href="tel:0667799507" class="underline">06-6779-9507</a><br>メール：uchida@oubijuku.com</p>
                 <p class="text-sm mt-4">運営：もものはな株式会社<br>代表取締役 内田憲一</p>
             </div>
