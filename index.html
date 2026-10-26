@@ -94,6 +94,11 @@
         table.fee-table th { font-family: 'Noto Serif JP', serif; letter-spacing: 0.06em; }
         header { box-shadow: 0 1px 16px rgba(194, 67, 92, 0.07); }
         ::selection { background: #F8CDD5; }
+        /* デザイン引き上げ第3弾（2026-10-27） */
+        h2.section-title { font-size: 1.55rem; }
+        @media (min-width: 768px) { h2.section-title { font-size: 2.05rem; } }
+        [class*="border-pink-100"] { box-shadow: 0 1px 2px rgba(43,8,18,0.04), 0 14px 30px -18px rgba(194,67,92,0.28); }
+        a.bg-main { box-shadow: 0 8px 20px -8px rgba(232,99,122,0.65); }
     </style>
 </head>
 <body class="bg-white">
@@ -189,6 +194,7 @@
 
     <!-- 選ばれる理由 -->
     <section class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+        <p class="text-[11px] font-bold tracking-[0.35em] text-main mb-2" style="padding-left:1rem;">01 — REASONS</p>
         <h2 class="section-title text-2xl md:text-3xl font-black mb-8">桜灯塾が選ばれる理由</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="border border-pink-100 rounded-lg p-6 bg-white shadow-sm">
@@ -213,6 +219,7 @@
     <!-- 合格マネジメント -->
     <section class="bg-main-light">
         <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+            <p class="text-[11px] font-bold tracking-[0.35em] text-main mb-2" style="padding-left:1rem;">02 — MANAGEMENT</p>
             <h2 class="section-title text-2xl md:text-3xl font-black mb-8">桜灯塾の合格マネジメント</h2>
             <p class="text-sm md:text-base max-w-3xl mb-8">計画を作るだけなら、誰でもできます。桜灯塾がやるのは、その先です。中学受験は12歳の挑戦で、計画を渡すだけでは子どもは動きません。だから塾長と講師が「専属マネージャー」として、計画の立案から日々の実践まで入り込みます。お子様が主役です。</p>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -239,8 +246,16 @@
     </section>
 
     <!-- 塾長メッセージ -->
-    <section>
+        <section class="relative">
+        <div class="h-56 md:h-72 bg-cover bg-center" style="background-image:linear-gradient(rgba(43,8,18,0.48),rgba(43,8,18,0.48)),url('img/studyroom-night.jpg');"></div>
+        <div class="absolute inset-0 flex items-center justify-center px-4">
+            <p class="text-white text-xl md:text-3xl font-black text-center leading-relaxed" style="font-family:'Noto Serif JP',serif;">超直前に詰め込むのは、<br class="md:hidden">知識ではなく勇気です。</p>
+        </div>
+    </section>
+
+<section>
         <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+            <p class="text-[11px] font-bold tracking-[0.35em] text-main mb-2" style="padding-left:1rem;">03 — MESSAGE</p>
             <h2 class="section-title text-2xl md:text-3xl font-black mb-8">塾長メッセージ</h2>
             <div class="bg-main-light rounded-lg p-7 md:p-10 border border-pink-100 max-w-3xl">
                 <p class="text-sm md:text-base mb-6">私は司法試験に落ちた経験があります。足りなかったのは、才能ではありません。「戦略」と「勉強量の管理」でした。中学受験も、この2つがすべてです。ただ、12歳の子どもが自分で戦略を立て、勉強量を管理することはできません。だから桜灯塾では、その設計と管理を大人が担います。</p>
@@ -253,6 +268,7 @@
     <!-- コース -->
     <section>
         <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+            <p class="text-[11px] font-bold tracking-[0.35em] text-main mb-2" style="padding-left:1rem;">04 — COURSE</p>
             <h2 class="section-title text-2xl md:text-3xl font-black mb-8">コース案内</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="bg-white rounded-lg p-7 shadow-sm border-2 border-main">
@@ -275,6 +291,7 @@
 
     <!-- 進学実績サマリー -->
     <section class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+        <p class="text-[11px] font-bold tracking-[0.35em] text-main mb-2" style="padding-left:1rem;">05 — RESULTS</p>
         <h2 class="section-title text-2xl md:text-3xl font-black mb-4">進学実績</h2>
         <p class="mb-6">2017〜2026年度の累計で、<strong class="text-main-dark">103名</strong>が私立中学・国立中学に進学しました。自塾コースでの合格が53名、大手塾と併用しての合格が50名です。この103名は重複のない、一人ひとりの進学実績です。</p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -295,6 +312,7 @@
     <!-- 料金目安 -->
     <section class="bg-main-light">
         <div class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+            <p class="text-[11px] font-bold tracking-[0.35em] text-main mb-2" style="padding-left:1rem;">06 — FEE</p>
             <h2 class="section-title text-2xl md:text-3xl font-black mb-4">料金の目安</h2>
             <p class="mb-6">授業料は1時間あたりの時間単価制です。通い方で月額が変わります。すべて税込、教材費は実費です。</p>
             <div class="overflow-x-auto bg-white rounded-lg p-4 md:p-6 shadow-sm">
@@ -315,6 +333,7 @@
 
     <!-- 体験授業 -->
     <section class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+        <p class="text-[11px] font-bold tracking-[0.35em] text-main mb-2" style="padding-left:1rem;">07 — FLOW</p>
         <h2 class="section-title text-2xl md:text-3xl font-black mb-8">体験授業・入塾までの流れ</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
             <div class="text-center border border-pink-100 rounded-lg p-6">
@@ -353,6 +372,7 @@
     <section class="bg-main-light">
         <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
+                <p class="text-[11px] font-bold tracking-[0.35em] text-main mb-2" style="padding-left:1rem;">08 — ACCESS</p>
                 <h2 class="section-title text-2xl md:text-3xl font-black mb-6">アクセス</h2>
                 <p class="font-bold mb-2">桜灯塾（中学受験）</p>
                 <p class="text-sm md:text-base mb-4">〒543-0054 大阪市天王寺区南河堀町9-43<br>ターミナル天王寺北口ビル201<br>JR天王寺駅 北口から徒歩5分</p>
@@ -390,6 +410,7 @@
                 <ul class="space-y-2">
                     <li><a href="https://oubijuku-omu.com/" class="hover:underline" target="_blank" rel="noopener">大阪公立大学専門 桜灯塾（大学受験）</a></li>
                     <li><a href="https://ameblo.jp/oubi-juku/" class="hover:underline" target="_blank" rel="noopener">中学受験ブログ（アメブロ）</a></li>
+                    <li><a href="https://www.instagram.com/oubijuku/" class="hover:underline" target="_blank" rel="noopener">Instagram（@oubijuku）</a></li>
                 </ul>
                 <div class="flex flex-col gap-3 mt-6">
                     <a href="https://lin.ee/oddwhsn" class="bg-line text-white text-center font-bold py-3 rounded">公式LINE</a>
