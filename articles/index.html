@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DKNC7SVXHH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DKNC7SVXHH');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no,address=no,email=no">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <meta name="theme-color" content="#E8637A">
+    <meta name="description" content="子どもが「わからん」と言ったとき、親が隣で一緒に解くための中学受験の学習記事です。算数・理科・国語・社会の各科目で、声かけの合言葉、図つきの基礎問題、実際の入試問題の応用までをまとめています。">
+    <meta name="keywords" content="中学受験,算数,食塩水,濃度算,天王寺,桜灯塾">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="桜灯塾｜中学受験">
+    <link rel="canonical" href="https://oubijuku.com/articles">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="学習記事（おうちで一緒に解く）｜中学受験専門 桜灯塾（おうびじゅく）・天王寺">
+    <meta property="og:description" content="子どもが「わからん」と言ったとき、親が隣で一緒に解くための中学受験の学習記事です。算数・理科・国語・社会の各科目で、声かけの合言葉、図つきの基礎問題、実際の入試問題の応用までをまとめています。">
+    <meta property="og:url" content="https://oubijuku.com/articles">
+    <meta property="og:site_name" content="桜灯塾｜中学受験">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="学習記事（おうちで一緒に解く）｜中学受験専門 桜灯塾（おうびじゅく）・天王寺">
+    <meta name="twitter:description" content="子どもが「わからん」と言ったとき、親が隣で一緒に解くための中学受験の学習記事です。算数・理科・国語・社会の各科目で、声かけの合言葉、図つきの基礎問題、実際の入試問題の応用までをまとめています。">
+    <title>学習記事（おうちで一緒に解く）｜中学受験専門 桜灯塾（おうびじゅく）・天王寺</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --main: #E8637A;
+            --main-dark: #C2435C;
+            --main-light: #FDF2F4;
+            --ink: #333333;
+            --line-green: #06C755;
+        }
+        body { font-family: 'Noto Sans JP', sans-serif; color: var(--ink); line-height: 1.9; }
+        .text-main { color: var(--main); }
+        .text-main-dark { color: var(--main-dark); }
+        .bg-main { background-color: var(--main); }
+        .bg-main-light { background-color: var(--main-light); }
+        .border-main { border-color: var(--main); }
+        .bg-line { background-color: var(--line-green); }
+        .section-title { position: relative; padding-left: 1rem; }
+        .section-title::before { content: ''; position: absolute; left: 0; top: 0.35em; bottom: 0.35em; width: 6px; border-radius: 3px; background: var(--main); }
+        #mobile-nav { transition: transform 0.35s ease; transform: translateX(100%); }
+        #mobile-nav.open { transform: translateX(0); }
+        h1, h2, h3 { font-family: 'Noto Serif JP', serif; letter-spacing: 0.03em; }
+        body { letter-spacing: 0.02em; }
+        .section-title::before { width: 4px; border-radius: 0; top: 0.25em; bottom: 0.25em; }
+        header { box-shadow: 0 1px 16px rgba(194, 67, 92, 0.07); }
+        ::selection { background: #F8CDD5; }
+        h2.section-title { font-size: 1.4rem; }
+        @media (min-width: 768px) { h2.section-title { font-size: 1.8rem; } }
+        [class*="border-pink-100"] { box-shadow: 0 1px 2px rgba(43,8,18,0.04), 0 14px 30px -18px rgba(194,67,92,0.28); }
+        a.bg-main { box-shadow: 0 8px 20px -8px rgba(232,99,122,0.65); }
+        .voice { background:#FFFFFF; border:1px solid #F3C6CE; border-left:5px solid #E8637A; border-radius:6px; padding:14px 18px; margin:20px 0; }
+        .voice p.label { font-size:12px; font-weight:900; color:#C2435C; margin:0 0 2px; }
+        .voice p { margin:0; }
+        .prob { background:#FDF2F4; border-radius:10px; padding:18px 20px; margin:20px 0; }
+        .prob p { margin:0; }
+        .points { background:#FDF2F4; border:2px solid #E8637A; border-radius:10px; padding:18px 20px; margin:20px 0; }
+        article p { margin:0 0 1em; }
+    </style>
+</head>
+<body class="bg-white">
+
+    <!-- ヘッダー -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-pink-100">
+        <div class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+            <a href="/" class="flex items-baseline gap-2">
+                <span class="text-2xl font-black text-main-dark tracking-wide"><ruby>桜灯<rt style="font-size:0.38em;color:#a8a29e;font-weight:500;letter-spacing:0.05em;">おうび</rt></ruby>塾</span>
+                <span class="text-xs font-bold text-gray-500">中学受験専門｜天王寺</span>
+            </a>
+            <nav class="hidden lg:flex items-center gap-6 text-sm font-bold">
+                <a href="/course" class="hover:text-main-dark">コース案内</a>
+                <a href="/results" class="hover:text-main-dark">進学実績</a>
+                <a href="/fee" class="hover:text-main-dark">料金</a>
+                <a href="/instructors" class="hover:text-main-dark">講師紹介</a>
+                <a href="/articles" class="hover:text-main-dark">学習記事</a>
+                <a href="/faq" class="hover:text-main-dark">よくある質問</a>
+                <a href="/access" class="hover:text-main-dark">アクセス</a>
+                <a href="/contact" class="bg-main text-white px-4 py-2 rounded hover:opacity-90">お問い合わせ</a>
+            </nav>
+            <div class="flex items-center gap-3 lg:hidden">
+                <a href="tel:0667799507" class="text-main-dark font-black text-sm">06-6779-9507</a>
+                <button id="menu-btn" class="p-2" aria-label="メニューを開く">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- モバイルメニュー -->
+    <div id="mobile-nav" class="fixed inset-y-0 right-0 w-72 max-w-[85vw] bg-white z-[60] shadow-2xl lg:hidden">
+        <div class="flex items-center justify-between p-4 border-b border-pink-100">
+            <span class="font-black text-main-dark">メニュー</span>
+            <button id="menu-close" class="p-2" aria-label="メニューを閉じる">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+            </button>
+        </div>
+        <nav class="flex flex-col p-4 gap-1 font-bold">
+            <a href="/" class="py-3 border-b border-gray-100">トップ</a>
+            <a href="/course" class="py-3 border-b border-gray-100">コース案内</a>
+            <a href="/results" class="py-3 border-b border-gray-100">進学実績</a>
+            <a href="/fee" class="py-3 border-b border-gray-100">料金</a>
+            <a href="/instructors" class="py-3 border-b border-gray-100">講師紹介</a>
+            <a href="/articles" class="py-3 border-b border-gray-100">学習記事</a>
+            <a href="/faq" class="py-3 border-b border-gray-100">よくある質問</a>
+            <a href="/access" class="py-3 border-b border-gray-100">アクセス・教室案内</a>
+            <a href="/contact" class="py-3">お問い合わせ・体験申込</a>
+        </nav>
+        <div class="p-4 flex flex-col gap-3">
+            <a href="https://lin.ee/oddwhsn" class="bg-line text-white text-center font-bold py-3 rounded">公式LINEで相談する</a>
+            <a href="tel:0667799507" class="bg-main text-white text-center font-bold py-3 rounded">電話 06-6779-9507</a>
+        </div>
+    </div>
+
+    <section class="bg-main-light py-10 md:py-12">
+      <div class="max-w-6xl mx-auto px-4">
+        <h1 class="font-black text-3xl md:text-4xl leading-tight">おうちで一緒に解く 学習記事</h1>
+        <p class="mt-4 leading-relaxed">子どもが「わからん」と言ったとき、「勉強しろ」と言うより、親が隣で一緒に解く方が、子どもには響きます。このコーナーは、その「一緒に解く1問」のための記事です。各記事とも、最初に声かけの合言葉（ポイント）を置き、図つきの基礎問題、実際の入試問題の応用問題の順で進みます。</p>
+        <div class="grid md:grid-cols-3 gap-4 mt-6">
+          <div class="bg-white rounded-xl p-4">
+            <p class="font-black text-main-dark">1．ポイント先出し</p>
+            <p class="text-sm text-gray-600 mt-1 leading-relaxed">各記事の最初に、その単元の合言葉と見るべき点をまとめています。</p>
+          </div>
+          <div class="bg-white rounded-xl p-4">
+            <p class="font-black text-main-dark">2．図で一緒に考える</p>
+            <p class="text-sm text-gray-600 mt-1 leading-relaxed">基礎問題には図がついています。答えを言う代わりに、図を指して問いかける声かけも載せています。</p>
+          </div>
+          <div class="bg-white rounded-xl p-4">
+            <p class="font-black text-main-dark">3．応用は入試問題</p>
+            <p class="text-sm text-gray-600 mt-1 leading-relaxed">仕上げの応用問題は、実際の入試問題から取っています（出典を明記しています）。</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-2 mt-6">
+          <a href="#sansu" class="bg-main text-white font-bold px-4 py-2 rounded-full text-sm">算数</a>
+          <a href="#rika" class="bg-main text-white font-bold px-4 py-2 rounded-full text-sm">理科</a>
+          <a href="#kokugo" class="bg-main text-white font-bold px-4 py-2 rounded-full text-sm">国語</a>
+          <a href="#shakai" class="bg-main text-white font-bold px-4 py-2 rounded-full text-sm">社会</a>
+        </div>
+        <p class="text-sm text-gray-600 mt-6 leading-relaxed">一緒に解くのは、聞かれたときの1問で十分です。深い積み残しの立て直しは親の役目ではなく、塾の仕事です。</p>
+      </div>
+    </section>
+    <section id="sansu" class="py-8 md:py-10">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-black text-2xl md:text-3xl border-l-4 border-main pl-3">算数</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+          <a href="/articles/shokuensui" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">算数</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">「食塩水わからん」と言われたら｜教えるときは「食塩の量」だけを見る</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">食塩水が苦手な子への声かけは「食塩は何g？」。基礎問題と開智中学の入試問題を図つきで解説。親が隣で一緒に解くための中学受験・算数の考え方です。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/wariai" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">算数</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">「割合わからん」と言われたら｜線分図で「もとにする量」をつかむ</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">割合のつまずきは「何をもとにした割合か」。基礎問題と三輪田学園中学校2025年の入試問題（相当算）を線分図と声かけで解説する、中学受験・算数の記事です。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/hayasa" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">算数</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">「速さわからん」と言われたら｜出会いは和、追いつきは差</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">旅人算の合言葉は「出会いは速さの和、追いつきは速さの差」。基礎問題と愛光中学2015年の入試問題（通過算）を図と声かけで解説する、中学受験・算数の記事です。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/tsurukame" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">算数</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">「つるかめ算わからん」と言われたら｜面積図で「全部同じだったら」</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">つるかめ算の合言葉は「全部同じだったら？」。基礎問題と成蹊中学2022年の入試問題を面積図と声かけで解説する、中学受験・算数の記事です。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/heimen-zukei" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">算数</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">「面積わからん」と言われたら｜底辺と高さ、そして面積の差の見方</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">平面図形の合言葉は「底辺と高さはどこ？」。基礎問題と攻玉社中学2022年の入試問題（正方形の面積の差）を図と声かけで解説する、中学受験・算数の記事です。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="rika" class="py-8 md:py-10">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-black text-2xl md:text-3xl border-l-4 border-main pl-3">理科</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+          <a href="/articles/teko" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">理科</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">「てこがわからん」と言われたら｜見るのは「きょり×重さ」だけ</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">てこのつり合いは「支点からのきょり×重さ」で比べます。基礎問題と、共立女子第二中学校2023年度の入試問題をもとにした応用問題で、親が隣で声をかけながら一緒に解くためのポイントをまとめました。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/mame-denkyu" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">理科</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">「豆電球の明るさ比べがわからん」と言われたら｜見るのは「道の分かれ方」</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">豆電球の明るさは、回路の「道の分かれ方」で決まります。直列・並列の基礎と、乾電池を2個に増やす応用問題で、親が隣で声をかけながら一緒に解くためのポイントをまとめました。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/bane" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">理科</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">「ばねの問題がわからん」と言われたら｜見るのは「のび」だけ</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">ばねは「のびと重さの比例」で解けます。基礎問題と、目黒日本大学中学校の令和8年度入試問題をもとにした応用問題で、親が隣で声をかけながら一緒に解くためのポイントをまとめました。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/furiko" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">理科</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">「ふりこがわからん」と言われたら｜周期を変えるのは「長さ」だけ</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">ふりこの周期は、長さだけで決まります。基礎問題と、海城中学校2019年度の入試問題をもとにした応用問題で、親が隣で声をかけながら一緒に解くためのポイントをまとめました。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/tokekata" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">理科</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">「ものの溶け方がわからん」と言われたら｜見るのは「溶ける限度の差」</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">ものの溶け方は、溶解度（水100gに溶ける限度）の差で解けます。基礎問題と、共立女子第二中学校2023年度の入試問題をもとにした応用問題で、親が隣で声をかけながら一緒に解くためのポイントをまとめました。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="kokugo" class="py-8 md:py-10">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-black text-2xl md:text-3xl border-l-4 border-main pl-3">国語</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+          <a href="/articles/monogatari" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">国語</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">物語文｜気持ちは「なんとなく」で答えない ― 根拠は本文のどこ？</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">中学受験の国語・物語文で、登場人物の気持ちを本文の根拠から読む方法を保護者向けに解説。気持ちを表す言葉と理由の部分の探し方、親の声かけ、入試と同じ形式の応用問題までまとめます。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/setsumeibun" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">国語</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">説明文｜要旨は「つまり」のあとにある ― 段落の役割で読む</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">中学受験の国語・説明文で要旨をつかむ方法を保護者向けに解説。「たとえば」と「つまり」の働き、段落の役割の見分け方、親の声かけ、入試と同じ形式の応用問題までまとめます。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/kijutsu" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">国語</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">記述問題｜答える形を先に決める ― 問い・本文・字数の3点セット</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">中学受験の国語・記述問題で、問われたことに本文の言葉で字数に収めて答える方法を保護者向けに解説。悪い例と良い例の違い、親の声かけ、入試と同じ形式の応用問題までまとめます。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/kanji-goi" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">国語</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">漢字と語彙｜確認の仕方を決めておく ― 読み・送りがな・同音異義語</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">中学受験の国語・漢字と語彙で、読み間違い、送りがな、同音異義語を保護者がチェックする観点を解説。意味で見分ける練習、親の声かけ、入試と同じ形式の応用問題までまとめます。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/shi-tanka-haiku" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">国語</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">詩・短歌・俳句｜表現の見分け方 ― 音の数・季語・切れ字・比喩</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">中学受験の国語・詩、短歌、俳句で、音の数、季語、切れ字、比喩を手がかりに表現を見分ける方法を保護者向けに解説。自作の短歌と俳句を使い、入試と同じ形式の応用問題までまとめます。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="shakai" class="py-8 md:py-10">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-black text-2xl md:text-3xl border-l-4 border-main pl-3">社会</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+          <a href="/articles/uonzu" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">社会</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">雨温図と気候｜「わからん」と言われたら ― 読む順番は3つだけ</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">中学受験の社会・雨温図の読み方を保護者向けに解説。気温の折れ線と降水量の棒グラフを読む順番、大阪・札幌・那覇の気象庁平年値を使った基礎と、2地点を見分ける入試レベルの応用問題までまとめます。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/nogyo-kogyo" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">社会</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">農業と工業｜統計は「1位」と「差」で読む</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">中学受験の社会・農業と工業の資料の読み方を保護者向けに解説。米の収穫量と製造品出荷額等の公的統計を使い、順位と差で読む基礎と、差や倍率を計算する入試レベルの応用問題までまとめます。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/rekishi-nagare" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">社会</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">歴史の流れ｜年号は「時代の並び」でつかむ</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">中学受験の社会・歴史の流れのつかみ方を保護者向けに解説。時代の並びの上に出来事を置く年表の読み方、原因と結果のつなぎ方、2つの憲法の間隔を読む入試レベルの応用問題までまとめます。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/kenpo-seiji" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">社会</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">憲法と政治のしくみ｜三権分立は「見張り合い」で覚える</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">中学受験の社会・憲法と政治のしくみを保護者向けに解説。三権分立を矢印でたどる基礎と、違憲審査や内閣不信任の場面で問う入試レベルの応用問題まで、親の声かけとともにまとめます。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+          <a href="/articles/chikeizu" class="block bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md hover:border-main transition">
+            <span class="inline-block bg-main-light text-main-dark text-xs font-bold px-2 py-1 rounded">社会</span>
+            <h3 class="font-black text-lg mt-3 leading-snug">地形図の読み方｜等高線は「間隔」と「曲がり方」で読む</h3>
+            <p class="text-sm text-gray-600 mt-2 leading-relaxed">中学受験の社会・地形図の読み方を保護者向けに解説。等高線の間隔で斜面の急さを、曲がり方で尾根と谷を見分ける基礎と、2万5千分1地形図の縮尺計算を含む入試レベルの応用問題までまとめます。</p>
+            <span class="inline-block mt-3 text-main-dark font-bold text-sm">記事を読む →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="py-8 md:py-10 bg-main-light">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="font-black text-xl md:text-2xl">次に見るページ</h2>
+        <div class="grid md:grid-cols-3 gap-4 mt-4">
+          <a href="/course" class="block bg-white rounded-xl p-5 font-bold hover:shadow-md transition">コース案内 →</a>
+          <a href="/fee" class="block bg-white rounded-xl p-5 font-bold hover:shadow-md transition">料金 →</a>
+          <a href="/results" class="block bg-white rounded-xl p-5 font-bold hover:shadow-md transition">進学実績 →</a>
+        </div>
+      </div>
+    </section>
+    <!-- CTA -->
+    <section class="bg-main-light">
+        <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 text-center">
+            <h2 class="text-2xl md:text-3xl font-black mb-4">まずは体験授業で、教室の進み方をご確認ください</h2>
+            <p class="mb-8 max-w-2xl mx-auto">体験授業は、まず無料で1回受けていただけます。その後ご希望の場合は、有料体験（集団個別・1回2時間×3回で13,200円（税込））もご用意しています。実際の少人数個別の授業を受けて、お子様との相性をご確認いただけます。</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-3">
+                <a href="/contact" class="bg-main text-white font-bold text-center px-8 py-4 rounded shadow-lg hover:opacity-90">体験授業を申し込む</a>
+                <a href="https://lin.ee/oddwhsn" class="bg-line text-white font-bold text-center px-8 py-4 rounded shadow-lg hover:opacity-90">公式LINEで相談する</a>
+                <a href="/fee" class="border-2 border-main text-main-dark font-bold text-center px-8 py-4 rounded hover:bg-white">料金を見る</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <section class="bg-main-light">
+        <div class="max-w-6xl mx-auto px-4 py-12 md:py-16">
+            <h2 class="text-xl md:text-2xl font-black text-center mb-8">次に見るページ</h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <a href="/articles" class="block bg-white rounded p-6 shadow-sm hover:shadow transition">
+                    <div class="font-bold text-main-dark mb-2">学習記事一覧</div>
+                    <p class="text-sm text-gray-600 leading-relaxed">算数・理科・国語・社会の「一緒に解く」記事をまとめています。</p>
+                </a>
+                <a href="/course" class="block bg-white rounded p-6 shadow-sm hover:shadow transition">
+                    <div class="font-bold text-main-dark mb-2">コース案内</div>
+                    <p class="text-sm text-gray-600 leading-relaxed">集団個別（講師1名対生徒3名まで）と、大手塾サポートの2コースです。</p>
+                </a>
+                <a href="/fee" class="block bg-white rounded p-6 shadow-sm hover:shadow transition">
+                    <div class="font-bold text-main-dark mb-2">料金</div>
+                    <p class="text-sm text-gray-600 leading-relaxed">入塾金・授業料・施設費を、すべて税込で載せています。</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#2B2B2B] text-gray-200">
+        <div class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div>
+                <p class="text-[10px] font-bold tracking-[0.35em] text-gray-400 mb-1">OUBIJUKU</p>
+                <p class="text-xl font-black text-white mb-3" style="font-family:'Noto Serif JP',serif;letter-spacing:0.06em;">桜灯塾 <span class="text-sm font-bold text-gray-400">中学受験専門</span></p>
+                <p class="text-sm leading-relaxed">〒543-0054 大阪市天王寺区南河堀町9-43<br>ターミナル天王寺北口ビル201<br>電話：<a href="tel:0667799507" class="underline">06-6779-9507</a><br>メール：uchida@oubijuku.com</p>
+                <p class="text-sm mt-4">運営：もものはな株式会社<br>代表取締役 内田憲一</p>
+            </div>
+            <nav class="text-sm">
+                <p class="font-black text-white mb-3">サイトマップ</p>
+                <ul class="space-y-2">
+                    <li><a href="/" class="hover:underline">トップ</a></li>
+                    <li><a href="/course" class="hover:underline">コース案内</a></li>
+                    <li><a href="/results" class="hover:underline">進学実績</a></li>
+                    <li><a href="/fee" class="hover:underline">料金</a></li>
+                    <li><a href="/instructors" class="hover:underline">講師紹介</a></li>
+                    <li><a href="/articles" class="hover:underline">学習記事</a></li>
+                    <li><a href="/faq" class="hover:underline">よくある質問</a></li>
+                    <li><a href="/access" class="hover:underline">アクセス・教室案内</a></li>
+                    <li><a href="/contact" class="hover:underline">お問い合わせ・体験申込</a></li>
+                </ul>
+            </nav>
+            <div class="text-sm">
+                <p class="font-black text-white mb-3">関連サイト</p>
+                <ul class="space-y-2">
+                    <li><a href="https://oubijuku-omu.com/" class="hover:underline" target="_blank" rel="noopener">大阪公立大学専門 桜灯塾（大学受験）</a></li>
+                    <li><a href="https://ameblo.jp/oubi-juku/" class="hover:underline" target="_blank" rel="noopener">中学受験ブログ（アメブロ）</a></li>
+                    <li><a href="https://www.instagram.com/oubijuku/" class="hover:underline" target="_blank" rel="noopener">Instagram（@oubijuku）</a></li>
+                </ul>
+                <div class="flex flex-col gap-3 mt-6">
+                    <a href="https://lin.ee/oddwhsn" class="bg-line text-white text-center font-bold py-3 rounded">公式LINE</a>
+                    <a href="tel:0667799507" class="bg-main text-white text-center font-bold py-3 rounded">電話 06-6779-9507</a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-700 py-4 text-center text-xs text-gray-400">© もものはな株式会社（桜灯塾）</div>
+    </footer>
+
+    <!-- モバイル固定CTA -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 grid grid-cols-2 lg:hidden shadow-[0_-4px_12px_rgba(0,0,0,0.12)]">
+        <a href="tel:0667799507" class="bg-main text-white text-center font-bold py-3 text-sm">電話する<br><span class="text-xs">06-6779-9507</span></a>
+        <a href="https://lin.ee/oddwhsn" class="bg-line text-white text-center font-bold py-3 text-sm">LINEで相談<br><span class="text-xs">公式LINE</span></a>
+    </div>
+    <div class="h-14 lg:hidden"></div>
+
+    <script>
+        var nav = document.getElementById('mobile-nav');
+        document.getElementById('menu-btn').addEventListener('click', function(){ nav.classList.add('open'); });
+        document.getElementById('menu-close').addEventListener('click', function(){ nav.classList.remove('open'); });
+    </script>
+
+    <!-- GA4 イベントトラッキング -->
+    <script>
+      (function() {
+        if (typeof gtag !== 'function') return;
+        document.querySelectorAll('a[href^="tel:"]').forEach(function(el) {
+          el.addEventListener('click', function() {
+            gtag('event', 'phone_call_click', { event_category: 'engagement', event_label: el.getAttribute('href').replace('tel:', ''), page_path: window.location.pathname });
+          });
+        });
+        document.querySelectorAll('a[href*="lin.ee"], a[href*="line.me"]').forEach(function(el) {
+          el.addEventListener('click', function() {
+            gtag('event', 'line_click', { event_category: 'engagement', event_label: 'LINE', page_path: window.location.pathname });
+          });
+        });
+        document.querySelectorAll('a.js-form-link').forEach(function(el) {
+          el.addEventListener('click', function() {
+            gtag('event', 'form_open_click', { event_category: 'engagement', event_label: 'google_form', page_path: window.location.pathname });
+          });
+        });
+      })();
+    </script>
+</body>
+</html>
